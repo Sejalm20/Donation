@@ -1,0 +1,228 @@
+
+body{
+  overflow-x: hidden;
+}
+
+.logo{
+  height: 4.8rem;
+  padding-left: 80px;
+}
+
+.navbar{
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+
+.over:hover{
+  font-weight: bold;
+  color: #fff;
+}
+
+.d-flex{
+  margin-left: 500px;
+}
+
+.big-image{
+  height: 710px;
+  width: 1519px;
+  background-image: url("https://images.pexels.com/photos/1676019/pexels-photo-1676019.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.slogan{
+     color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 45px;
+  padding-top: 40px;
+  padding-left: 1000px;
+  padding-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: animtext 5s steps(100, end);
+   transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+
+@keyframes animtext {
+  from {
+      width: 0;
+     transition: all 2s ease-in-out;
+  }
+}
+
+h2{
+     color: black;
+  font-family: "arial";
+  font-size: 3em;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: animtext 4s steps(80, end);
+   transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}
+@keyframes animtext {
+  from {
+      width: 0;
+     transition: all 2s ease-in-out;
+  }
+}
+
+#title{
+  /* background-color: #edfcfc; */
+}
+
+h2{
+  font-family: "Montserrat-Bold"
+  font-size: 3rem;
+  line-height: 1rem;
+  padding-left: 100px;
+}
+
+h3{
+font-family: "Montserrat-Bold"
+}
+
+.sec2-icon{
+  color: #ff4c68;
+  padding-left: 80px;
+}
+
+i:hover{
+  color:#2F86A6;
+}
+
+#features{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: 200px;
+  padding-right: 100px;
+  background-color: white;
+}
+
+#carouselExampleIndicators{
+  width: 900px;
+  height: 600px;
+  margin-left: 335px;
+}
+
+
+p{
+  color: grey;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+#testimonials{
+background-color: #EAEAEA;
+  padding: 7% 15%;
+  text-align: center;
+  color: #000;
+}
+
+.logo-about{
+  margin-left: 80px;
+  margin-top: 50px;
+  margin-bottom: -60px;
+  height: 150px;
+  /* margin-right: 100px; */
+
+}
+
+.about-text{
+  margin-left: 300px;
+  padding-bottom: 100px;
+  padding-right: 300px;
+  font-size: 17px;
+}
+
+.carouselExampleIndicators{
+height: 700px;
+  /* background-color: black; */
+  background-image: url("https://images.pexels.com/photos/3996734/pexels-photo-3996734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.carousel-item{
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.carousel-div{
+  background-color: black;
+  opacity: 85%;
+  margin-left: 200px;
+  padding-left: 20px;
+    padding-right: 10px;
+  height: 150px;
+  width: 500px;
+}
+
+.carousel-p{
+  color: white;
+}
+
+#cta{
+  background-color:#54BAB9;
+  height:250px;
+}
+
+.footer-text{
+padding-top: 50px;
+text-align: center;
+color: #fff;
+}
+
+.footer-text-h2{
+  padding-top: 5px;
+padding-left: 580px;
+color: #fff;
+font-size: 20px;
+font-family: "Montserrat-Bold"
+}
+
+.about-h2{
+  color: black;
+font-weight: bold;
+font-size: 40px;
+}
+
+.razorpay-button{
+margin-top: 30px;
+  margin-left: 650px;
+}
+
+
+.footer-buttons{
+position: relative;
+left: 600px;
+top: 30px;
+}
+
+#footer{
+  height: 160px;
+}
+
+.copyright{
+  padding-top: 70px;
+  text-align: center;
+}
+
+.socialmedia-icons{
+  position: relative;
+  left: 610px;
+  top: 60px;
+  padding: 10px;
+}
+
+@media (max-width:993px){
+.iphone-img{
+  transform:rotate(0);
+  position: static;
+}
+
+#title{
+   text-align: center;
+}
+
+.socialmedia-icons{
+  position: relative;
+  left:150px;
+}
